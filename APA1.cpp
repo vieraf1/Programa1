@@ -1,3 +1,6 @@
+/*
+Teste do Github
+*/
 #include "iostream"
 #include "cstdlib"
 #include "math.h"
@@ -18,7 +21,7 @@ int main(){
 	{
                 system("cls");
                 cout << "\n1 - Ler Peso e Altura\
-                         \n2 - Efetuar Cálculos\
+                         \n2 - Efetuar CÃ¡lculos\
                          \n3 - Resultados\
                          \nESC - Sair";
                 tecla = getch();
@@ -63,11 +66,11 @@ int main(){
     
     else if (tecla == '3') {
         system("cls");
-        cout << "\nTela de Saída\n";
+        cout << "\nTela de SaÃ­da\n";
         cout.precision(3);
         cout << "\nIMC: " << IMC ;
-        cout << "\nClassificação: " << clas;             
-        cout << "\nFim da saída\n";
+        cout << "\nClassificaÃ§Ã£o: " << clas;             
+        cout << "\nFim da saÃ­da\n";
         system("pause");
  
          }
